@@ -1,0 +1,78 @@
+# Java build files
+*.class
+*.jar
+*.war
+*.ear
+
+# Compiled class files
+target/
+bin/
+
+# Maven
+.mvn/
+!**/src/main/resources/
+!**/src/main/webapp/
+pom.xml
+pom.xml.asc
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Logs
+*.log
+logs/
+log/
+*.log.*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.settings/
+.classpath
+.project
+.target/
+
+# NetBeans
+nbproject/private/
+build/
+
+# VS Code
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# Environment files
+.env
+*.env
+*.env.local
+*.env.development
+*.env.test
+*.env.production
+
+# Test outputs
+test-output/
+surefire-reports/
+
+# Other IDE files
+*.user
+*.sublime-workspace
+*.sublime-project
+
+# Custom files to ignore
+*.jar
+*.war
